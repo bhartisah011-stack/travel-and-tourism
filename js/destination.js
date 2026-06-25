@@ -6,7 +6,7 @@ const destinationDatabase = [
         budget: "high",
         category: "city",
         rating: "⭐ 4.8",
-        img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
+        img: "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateParis_Heroshutterstock_112137761.jpg",
         desc: "Experience the city of lights, stunning architecture, and world-class cuisine."
     }, 
     {
