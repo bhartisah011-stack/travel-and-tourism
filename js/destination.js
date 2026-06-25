@@ -8,7 +8,7 @@ const destinationDatabase = [
         rating: "⭐ 4.8",
         img: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=80",
         desc: "Experience the city of lights, stunning architecture, and world-class cuisine."
-    },
+    }, 
     {
         id: 2,
         title: "Kyoto Temples, Japan",
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const extractionId = parseInt(e.target.getAttribute('data-id'));
                 const matchedDestination = destinationDatabase.find(target => target.id === extractionId);
                 if (matchedDestination) {
-                    alert(`📍 Destination Hub Spotlight:\n\n✨ Place: ${matchedDestination.title}\n📊 Tier: ${matchedDestination.budget.toUpperCase()} Budget\n🎭 Style Category: ${matchedDestination.category.toUpperCase()}\n\n"${matchedDestination.desc}"`);
+                    alert(` Destination Hub Spotlight:\n\n Place: ${matchedDestination.title}\n Tier: ${matchedDestination.budget.toUpperCase()} Budget\n Style Category: ${matchedDestination.category.toUpperCase()}\n\n"${matchedDestination.desc}"`);
                 }
             };
         });
